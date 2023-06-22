@@ -105,7 +105,7 @@ section {
     font-weight: 700;
     color: transparent;
     -webkit-text-stroke: .7px var(--main-color);
-    background-image: linear-gradient(var(--main-color),var(--main-color));
+    background-image: linear-gradient(var(--main-color), var(--main-color));
     background-repeat: no-repeat;
     -webkit-background-clip: text;
     background-position: 0 0;
@@ -154,11 +154,9 @@ section {
     z-index: -1;
     transition: 0.5s;
 }
-
 .btn-box .btn:hover::before {
     width: 100%;
 }
-
 .home-sci {
     position: absolute;
     bottom: 4rem;
@@ -546,4 +544,3 @@ span {
 .contact form .btn-box.btns .btn {
     cursor: pointer;
 }
-
